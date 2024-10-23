@@ -1,7 +1,7 @@
 "use client";
 
 import { useSectionInView } from "@/common/lib/hooks";
-import portfolioImg from "@/../public/images/photo.jpg";
+import portfolioImg from "@/../public/images/me.jpg";
 import { smoothScrollTo } from "@/common/lib/utils";
 import SectionDivider from "@/common/components/shared/section-divider";
 import SectionHeading from "@/common/components/shared/section-heading";
@@ -44,17 +44,12 @@ export default function About() {
             <div className="text-md relative z-40 flex flex-col gap-3 font-semibold tracking-wide text-primary lg:absolute lg:right-0 lg:top-[27%] lg:block lg:max-w-[580px] lg:text-start lg:text-lg xl:top-1/3 xl:h-[442px] xl:max-w-[650px]">
               <div className="flex h-full flex-col justify-center gap-6">
                 <span>
-                  I&apos;m Full-stack developer with expertise in TypeScript,
-                  React, Next.js, Node.js, and database technologies
-                  (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data
-                  access. Proven ability to deliver user-centered web
-                  applications with a focus on intuitive experiences and user
-                  interaction.
-                </span>
-                <span>
-                  Seeking for Web Development opportunities where I can leverage
-                  my skills to create meaningful connections between products
-                  and users.
+                  I&apos;m a software developer with experience
+                  in TypeScript and JavaScript, and expertise in frameworks
+                  like React, Node.js and Three.js. I'm a quick learner
+                  and collaborate closely with clients to create efficient,
+                  scalable, and user-friendly, solutions that solve real-world
+                  problems. Let's walk together to bring your ideas to life!
                 </span>
                 <p className="flex flex-col items-start sm:items-center lg:items-start">
                   <span>So if you are interested,</span>

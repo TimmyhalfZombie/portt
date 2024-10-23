@@ -46,10 +46,9 @@ export default function Hero() {
                 animate={{ y: 0, x: "-50%", opacity: 1 }}
                 className="mb-10 text-start font-extrabold"
               >
-                Hey!
               </motion.span>
               <br />
-              <TextAnimation delay={1} baseText={`I'm Maksym`} />
+              <TextAnimation delay={1} baseText={`Hi, I'm Shemuel Rei`} />
             </div>
             <motion.div
               className="w-92 flex flex-col items-center justify-center gap-3 px-4 text-sm font-medium md:mt-12 md:flex-row lg:text-lg"
@@ -70,25 +69,17 @@ export default function Hero() {
                 <span>Contact me here</span>
               </a>
 
-              <a
-                className="borderBlack group flex w-64 cursor-pointer items-center justify-center gap-2 rounded-full bg-white px-7 py-3 text-black outline-none transition hover:bg-gray-100 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 sm:w-auto"
-                href="/CV_Azimov_Maksym.pdf"
-                download
-              >
-                <span>Download CV</span>
-              </a>
-
               <div className="flex gap-2">
                 <a
                   className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-black transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
-                  href="https://www.linkedin.com/in/maksym-azimov/"
+                  href="https://www.linkedin.com/in/shemuel-rei-lagrosa-141304322/"
                   target="_blank"
                 >
                   <Linkedin />
                 </a>
                 <a
                   className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-gray-700 transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
-                  href="https://github.com/bbyc4kes"
+                  href="https://github.com/TimmyhalfZombie"
                   target="_blank"
                 >
                   <Image
