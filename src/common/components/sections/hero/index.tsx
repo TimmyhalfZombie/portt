@@ -48,7 +48,7 @@ export default function Hero() {
               >
               </motion.span>
               <br />
-              <TextAnimation delay={1} baseText={`Hi, I'm Shemuel Rei`} />
+              <TextAnimation delay={1} baseText={`Hi, I'm Shemuel`} />
             </div>
             <motion.div
               className="w-92 flex flex-col items-center justify-center gap-3 px-4 text-sm font-medium md:mt-12 md:flex-row lg:text-lg"
