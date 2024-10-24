@@ -11,14 +11,10 @@ export default function RedoTextAnimation({ delay }: IRedoTextAnimationProps) {
   const textIndex = useMotionValue(0);
 
   const texts = [
-    "Refactoring improves clarity and performance.",
-    "Continuous learning drives progress.",
-    "Elegant code reflects expertise.",
-    "Maintenance ensures sustainable development.",
-    "Collaboration leads to great outcomes.",
-    "Algorithms define the art of programming.",
-    "Best practices enhance efficiency and innovation.",
-   "Precision in solutions reflects dedication to excellence."
+    "Web 3 Enthusiast",
+    "Airdrop Fanatic",
+    "Front-end Developer",
+    "Cybersecurity Analyst",
   ];
 
   const baseText = useTransform(textIndex, (latest) => texts[latest] || "");
